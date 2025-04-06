@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+html,
+body {
+    width: 100%;
+    height: 100vh;
+    /* block-size: 900px; */
+}
+
+.container {
+    display:grid;
+    justify-content:center;
+    align-items: center;
+    padding:150px;
+    background-color: black;
+    color: white;
+    padding-right:10px;
+}
+.picture{
+    /* float: left;
+    display: flex;
+    justify-content: flex-start; */
+    position: absolute;
+
+}
+
+h6 {
+    font-size: 30px;
+    padding: 20px;
+    
+}
+input {
+    background-color: black;
+    padding: 10px;
+    margin: 3px;
+    color: white;
+    border: 1px solid white;
+}
+
+.btn {
+
+    width: 250px;
+    height: 30px;
+    background-color: #0095F6;
+    margin: 10px;
+    border-radius: 7px;
+    box-shadow: 3d;
+}
+
+.line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 1px;
+    margin: 20px;
+
+}
+i{
+    color: blue;
+    margin: 40px;
+ position: absolute;
+ top: 410px;
+}
+
+
+a {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0095F6;
+}
+
+
+p {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    margin: 25px;
+}
+
+.up {
+    color: #0095F6;
+}
+.logo{
+    display: flex;
+    gap: 7px;
+    inline-size: 230px;
+    block-size: 55px;
+    background: transparent;
+    color: white;
+    margin-block-start: 10px;
+    margin-inline-start: 15px;
+    font-size: 10px;
+  }
+  .playstore {
+    display: flex;
+  /*  background: red;*/
+    inline-size: 19%;
+    justify-content: space-between;
+  }
+      .logo img {
+        inline-size: 30px;
+        block-size: 30px;
+        padding-block-start: 5px;
+       /mix-blend-mode: multiply;/
+      }
+      .text{
+        inline-size: 280%;
+        block-size: 280px;
+       /* background-color: black;*/
+        margin-inline-start: 25px;
+       margin-block-start: -27px;
+      }
+      .microsoft {
+        display: flex;
+        inline-size: 19%;
+        justify-content: space-between;
+      }
+      .logo button{
+        all: unset;
+        inline-size: 100px;
+        block-size: 30px;
+        border-radius: 3px;
+        border: 1px solid white;
+      }
+      h2{
+        font-size: 10px;
+        margin: 5px;
+      }
